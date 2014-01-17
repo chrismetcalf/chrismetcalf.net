@@ -1,3 +1,6 @@
+destination: public
+exclude: [Gemfile, Gemfile.lock, .rvmrc, public]
+
 title:            Site Title
 description:      Describe your website here.
 logo:             site-logo.png
@@ -66,4 +69,8 @@ kramdown:
     coderay_css: class
 
 include: [".htaccess"]
+<<<<<<< HEAD
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+=======
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+>>>>>>> 9e3c199... Tweaks
