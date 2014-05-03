@@ -3,10 +3,17 @@ layout: page
 title: Latest Posts
 description: "A simple and clean responsive Jekyll theme for words and photos."
 tags: [Jekyll, theme, themes, responsive, blog, minimalism]
+quote: "A human being should be able to change a diaper, plan an invasion, butcher a hog, conn a ship, design a building, write a sonnet, balance accounts, build a wall, set a bone, comfort the dying, take orders, give orders, cooperate, act alone, solve equations, analyze a new problem, pitch manure, program a computer, cook a tasty meal, fight efficiently, die gallantly. Specialization is for insects."
+quote_byline: Robert Heinlein
+quote_byline_link: "http://en.wikipedia.org/wiki/Lazarus_Long"
+image:
+  feature: evangelizing.jpg
+  credit: Alameda County
+  creditlink: http://www.flickr.com/photos/alamedacounty/8269238423/
 ---
 
 <ul class="post-list">
-{% for post in site.posts limit:10 %} 
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
-{% endfor %}
+  {% for post in site.posts limit:10 %}
+    <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
+  {% endfor %}
 </ul>

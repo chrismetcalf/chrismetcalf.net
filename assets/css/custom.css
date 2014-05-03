@@ -1,0 +1,16 @@
+.logo {
+  color: black;
+  font-size: 5em; }
+
+.masthead blockquote {
+  font-size: 0.9em;
+  line-height: 1.4em;
+  border-left: none; }
+  .masthead blockquote .byline {
+    font-style: normal; }
+
+.masthead .with-image {
+  color: white; }
+
+.entry-feature-image {
+  margin-top: -399px; }
