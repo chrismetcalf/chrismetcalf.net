@@ -1,0 +1,14 @@
+blockquote em {
+  font-weight: bold; }
+
+footer, footer a {
+  color: #cecece;
+  font-size: 0.8em; }
+
+.navigation-wrapper .site-name a {
+  line-height: 32px; }
+  .navigation-wrapper .site-name a img.head {
+    vertical-align: middle;
+    padding-right: 5px; }
+.navigation-wrapper .top-navigation {
+  line-height: 32px; }
