@@ -44,6 +44,11 @@
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
       {{ content }}
+
+      <div class="next-prev">
+        {% if page.previous %}<a href="{{ page.previous.url }}">Previous: {{ page.previous.title }}</a>{% endif %} |
+        {% if page.next %}<a href="{{ page.next.url }}">Next: {{ page.next.title }}</a>{% endif %}
+      </div>
       <hr />
       <footer role="contentinfo">
         <div class="article-author-bottom">

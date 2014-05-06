@@ -1,5 +1,6 @@
-blockquote em {
-  font-weight: bold; }
+p, p + p {
+  text-indent: 0;
+  padding-bottom: 0.5em; }
 
 footer, footer a {
   color: #cecece;
@@ -12,3 +13,11 @@ footer, footer a {
     padding-right: 5px; }
 .navigation-wrapper .top-navigation {
   line-height: 32px; }
+
+#index .topline {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 500;
+  font-size: 1.4em; }
+  #index .topline em {
+    font-weight: 800;
+    font-style: normal; }
