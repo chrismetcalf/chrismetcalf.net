@@ -1,7 +1,8 @@
 title:            chrismetcalf.net
 description:      specialization is for insects
+
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url: http://chrismetcalf.net.dev
+url: http://chrismetcalf.net
 disqus_shortname: 
 destination: public
 
