@@ -9,4 +9,5 @@ tags: [ holidays, photography ]
 ---
 
 <img src="/uploads/merry_christmas.jpg" alt="Merry Christmas" />
+
 ... and to all a good night.

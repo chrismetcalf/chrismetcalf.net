@@ -9,14 +9,22 @@ tags: [ general ]
 ---
 
 <a href="http://www.kuro5hin.org/">Kuro5hin</a> has a great piece up showing some of the juciest comments from the leaked Windows 2000 code. Some of these quotes are hilarious:
-<blockquote><a href="http://www.kuro5hin.org/story/2004/2/15/71552/7795">private\ntos\w32\ntuser\client\dlgmgr.c:
-// HACK OF DEATH:
-private\shell\lib\util.cpp:
-// TERRIBLE HORRIBLE NO GOOD VERY BAD HACK
-private\ntos\w32\ntuser\client\nt6\user.h:
-* The magnitude of this hack compares favorably with that of the national debt. </a></blockquote>
+
+        private\ntos\w32\ntuser\client\dlgmgr.c:
+
+        // HACK OF DEATH:
+
+        private\shell\lib\util.cpp:
+
+        // TERRIBLE HORRIBLE NO GOOD VERY BAD HACK
+        private\ntos\w32\ntuser\client\nt6\user.h:
+
+        // The magnitude of this hack compares favorably with that of the national debt.
+
 And another good one: 
-<blockquote><a href="http://www.kuro5hin.org/story/2004/2/15/71552/7795">private\shell\ext\tweakui\genthunk.c:
-* CallProc32W is insane. It's a variadic function that uses
-* the pascal calling convention. (It probably makes more sense
-* when you're stoned.)</a></blockquote>
+
+private\shell\ext\tweakui\genthunk.c:
+
+        /* CallProc32W is insane. It's a variadic function that uses
+        * the pascal calling convention. (It probably makes more sense
+        * when you're stoned.) */

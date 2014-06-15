@@ -9,7 +9,9 @@ tags: [ me, widget ]
 ---
 
 I am now the owner of a beautiful little female kitten.
-<img src="/uploads/kitten.jpg" alt="Kitten!" />
+
+<img src="/images/posts/widget.jpg" alt="Kitten!" />
+
 But she has no name.
+
 So I'm looking for good names. Geeky names. Like "<a href="http://jakarta.apache.org/">Jakarta</a>", "<a href="http://www.anvari.org/fortune/Jargon_File/19569.html">Nibble</a>", or maybe even a <a href="http://www.clueless.com/jargon3.0.0/recursive_acronym.html">recursive cat acronym</a>. Feed me some ideas...
-<strong class="alert">Update:</strong> I've posted a small album of photos of the <a href="/gallery/index.php?album=Widget%2FKittenThatHathNoName&sortby=name&order=asc">Kitten-That-Hath-No-Name</a>

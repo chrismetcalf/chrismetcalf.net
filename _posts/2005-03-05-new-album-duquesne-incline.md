@@ -9,4 +9,5 @@ tags: [ photos, pittsburgh ]
 ---
 
 <a href="/photos/duquesne-incline"><img src="/albums/duquesne-incline/dsc_0070.sized.jpg" alt="Duquesne Incline" /></a>
+
 Just some photos I took over winter break that I finally got around to putting up.

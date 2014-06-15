@@ -9,4 +9,5 @@ tags: [ detroit, holidays, personal ]
 ---
 
 Class is done, finals are over, and I'm back home in Detroit.
+
 So hopefully I'll be able to blog some more. We'll see how that works out.

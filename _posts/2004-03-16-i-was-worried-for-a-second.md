@@ -9,4 +9,5 @@ tags: [ linkage, politics ]
 ---
 
 If this <a href="http://www.presidentmatch.com/Guide.jsp2">political quiz</a> had told me to vote for Kerry, I would have had to kill my friend.
+
 Fortunately, it told me to vote for Bush. 62% to Kerry's 41%.
