@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ## Fear and Self-Loathing in the Blogosphere
