@@ -1,5 +1,6 @@
 ---
 published: true
+layout: post
 ---
 
 ## Fear and Self-Loathing in the Blogosphere
