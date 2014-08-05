@@ -1,9 +1,9 @@
 ---
 published: true
 layout: post
+title: Fear and Self-Loathing in the Blogosphere
 ---
 
-## Fear and Self-Loathing in the Blogosphere
 
 Remember back when blogs were new and cool and you'd post _everything_ you did, even if it was a mildly-embarassing failure that barely compiled? Back before Twitter, Medium, and professional bloggers, when everybody was still figuring it out and it was OK if it wasn't perfect?
 
