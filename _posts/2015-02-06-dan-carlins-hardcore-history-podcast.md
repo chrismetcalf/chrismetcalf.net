@@ -5,8 +5,8 @@ modified: 2015-02-06 00:26:51 -0800
 tags: [podcasts, recommendations, history]
 image:
   feature: posts/2015-02-06-hardcore-history.png
-  credit: http://www.dancarlin.com/hardcore-history-series/
-  creditlink: Dan Carlin
+  creditlink: http://www.dancarlin.com/hardcore-history-series/
+  credit: Dan Carlin
 ---
 
 I got an excellent podcast recommendation from a coworker and I have to pass it on. Dan Carlin's ["Hardcore History"](http://www.dancarlin.com/hardcore-history-series/) series.
