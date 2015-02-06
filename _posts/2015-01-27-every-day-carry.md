@@ -4,11 +4,9 @@ title: "Every Day Carry"
 modified: 2015-01-27 21:00:34 -0800
 tags: ["edc", "carry", "every day carry", "pockets"]
 image:
-  feature: 
-  credit: 
+  feature: posts/2015-01-27-every-day-carry.jpg
+  credit: Chris Metcalf
   creditlink: 
-comments: 
-share: 
 ---
 
 Time to out myself. I've recently been fascinated by the "EDC community" (no, it is not an offshoot of the "seduction community"), and I finally decided to do [a pocket dump](http://everydaycarry.com/posts/4428/Just-Another-Day#) for [Everyday Carry](http://everydaycarry.com).
