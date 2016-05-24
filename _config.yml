@@ -52,6 +52,7 @@ exclude:
 - Gemfile.lock
 - README.md
 - .ruby-*
+- vendor
 
 gems:
 - jekyll-mentions
