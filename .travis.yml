@@ -17,7 +17,7 @@ before_install:
 - npm install -g surge
 after_success:
 - test $TRAVIS_BRANCH == "gh-pages" && test $TRAVIS_PULL_REQUEST == "false" && surge
-  --project ./public --domain http://www.chrismetcalf.net
+  --project ./public --domain http://chrismetcalf.net
 notifications:
   slack:
     secure: GN2BE5VlfTNVqpUhPKIoc82JoV16m94mLOnufCpLM1GQSC3cTB3QVvrDNxQTJYMzKUjmvA6H40YDSh/oXSRe7zKDXDCea6e35NjIUw0mZ+cBi747Kh8BFJDnc/qDAgeaPcTZlaBzISx6e3OgGdQRp1T9WXbFcffRyKsFiiI3J/rwQ5tn3suZpzTmlvpXidF7M8WJVIXKC/s0AY49A0F+JdZlGDR1iHq30WmxAhVcll3lExLbroS/o2utfol+V7QJCgi6RmY6e4Ojo8DLAL+VJFaBKALePgTQufyefmcep6M0Bgpgl2gcn1IxvumHPeYwBbCD1lifDiqo4WvHoaVQGB5hOfwnAoJWaZfPBF63C7mXWA/4N6amj4LrCdpTocH6XwF2VnaoUigzyQ2ibXBJwQbEmum1JoRVYv2tye3yiTs5V7Rv3VrQ4ncCGIAJp/3myJx2H3yCokNKeWrtQhK9DKZwXcYxoFi1GddJA/lHW6QwRY7ALWmewfAn7GOy3tZBq76NcAW7iKeg9sEeaXMfIm6ylgcMnGLNUup0NAaAWmh1rDYEHopMNg2gOeDxxB2GIGIcUAXr6h3mo00evmgstROLrNRGrCp6UmrYARie/mFJISpFRlmmwqy5m1XZRIREnZ0DugmcjBJASEhE42giG2QONfMF5YpXC8u8dNUfmMk=
