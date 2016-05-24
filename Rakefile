@@ -2,6 +2,7 @@ require 'colorize'
 require "rubygems"
 require "bundler/setup"
 require "stringex"
+require "json"
 
 posts_dir       = "_posts"    # directory for blog files
 new_post_ext    = "md"  # default new post file extension when using the new_post task
@@ -45,6 +46,11 @@ end
 desc "perform a test cycle"
 task :staging_test => [:clean, :jekyll, :htmlproof] do
   puts "Done!!!".on_green
+end
+
+desc "regen pano manifest"
+task :regen_panos do
+  File.open("images/panos/manifest.json", 'w') { |f| f.write(Dir["images/panos/*.jpg"].to_json) }
 end
 
 desc "create a new post in #{posts_dir}"

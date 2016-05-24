@@ -21,7 +21,7 @@
     {% elsif page.image.feature contains 'https://' %}
       "{{ page.image.feature }}"
     {% else %}
-      "{{ site.url }}/images/{{ page.image.feature }}"
+      "/images/{{ page.image.feature }}"
     {% endif %}
   alt="{{ page.title }} feature image">
   {% if page.image.credit %}
@@ -42,17 +42,17 @@
 
   <p>He is currently the <em>Director of Developer Experience</em> at <a href="http://www.socrata.com">Socrata</a>, a fast-growing startup in Seattle that helps governments serve their constituents better through the creative use of open data.</p>
 
-  <p>Seven years ago, they were just a handful of engineers with a dream. Now he focuses on the developer experience, enabling civic entrepreneurs, and just generally making governments more awesome. Every single day he wakes up still a bit confused that he gets to do what he loves as a job. And they pay him!</p>
+  <p>Seven years ago, they were just a handful of engineers with a dream. Now he focuses on the developer experience, enabling civic entrepreneurs, and just generally making governments more awesome. Every single day he wakes up still a bit confused that he gets to do what he loves as a job. And they even pay him for his trouble!</p>
 
-  <p>Outside of work, Chris occupies himself with sailboat racing, photography, and dabbling in numerous personal projects. He lives in Seattle with his awesome wife, <a href="http://facebook.com/maggiedawg">kick ass dog</a>, and several curmudgeonly cats.</p>
+  <p>Outside of work, Chris occupies himself with sailboat racing, photography, and dabbling in numerous personal projects. He lives in Seattle with his awesome wife, <a href="http://facebook.com/maggiedawg">kick ass dog</a>, and a couple of curmudgeonly cats.</p>
 
   <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
   {% for post in site.posts limit:5 %}    
   <article>
     {% if post.link %}
-      <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="icon-link"></i></h2>
+      <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="icon-link"></i></h2>
     {% else %}
-      <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+      <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
       <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
     {% endif %}
   </article>
