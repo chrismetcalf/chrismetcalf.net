@@ -44,8 +44,14 @@ kramdown:
     coderay_bold_every: 10
     coderay_css: class
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Makefile", ".ruby-*"]
+destination: public
+exclude: 
+- public
+- Rakefile
+- Gemfile
+- Gemfile.lock
+- README.md
+- .ruby-*
 
 gems:
 - jekyll-mentions
