@@ -17,7 +17,7 @@ image:
 
 Over the past five years, I've been privileged to be part of an amazing community of technologists sharing one thing in common - a belief that broader access to APIs and the products built with them can make the technology world a better place. And it's no accident that almost all of us are friends with the same man - [Kin Lane](http://kinlane.com/).
 
-{% include _figure.html src="/images/posts/2016-05-23-kin-chris.jpg" caption="A rare un-bearded Kin Lane and me at API Strat in 2013" href="http://www.programmableweb.com/news/api-strategy-and-practice-government-and-public-open-data-panel-summary/2013/10/25" %}
+{% include _figure.html src="/images/posts/2016-05-23-kin-chris.jpg" caption="A rare un-bearded Kin Lane (at the left) and me at API Strat in 2013" href="http://www.programmableweb.com/news/api-strategy-and-practice-government-and-public-open-data-panel-summary/2013/10/25" %}
 
 Through the research posted on his [API Evangelist](http://apievangelist.com) blog, the [API Strategy & Practice](http://apistrat.com) conference he founded, and his leadership and evangelism at events around the world, Kin has brought together a gang of awesome people, many of whom have become my good friends. I can't thank Kin enough for being so welcoming and for helping to make me a part of this world.
 
