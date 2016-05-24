@@ -12,27 +12,6 @@ owner:
   avatar:         head.png
   bio:            "specialization is for insects"
   email:          chris@chrismetcalf.net
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:        "chrismetcalf"
-  facebook:       "chrismetcalf"
-  github:         "chrismetcalf"
-  stackoverflow:  "1000222/chrismetcalf"
-  linkedin:       "chrismetcalf"
-  instagram:      "chrismetcalf"
-  lastfm:
-  tumblr:
-  pinterest:
-  foursquare:
-  steam:
-  dribbble:
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
@@ -67,3 +46,10 @@ kramdown:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Makefile", ".ruby-*"]
+
+gems:
+- jekyll-mentions
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+- jekyll-feed
