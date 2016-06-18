@@ -5,7 +5,7 @@ image:
   feature: transparent.gif
 ---
 
-<p class="topline">I'm technologist, software developer, and all-around nerd based in Seattle, Washington</p>
+<p class="topline">I'm a technologist, software developer, and all-around nerd based in Seattle, Washington</p>
 
 Over the last eight years I've had the pleasure of helping [Socrata](http://www.socrata.com) grow from a tiny startup to a 200 person company. A long the way, I've filled many of the roles a small startup needs help with most -- from project management and team leadership, to sales engineering, to customer support.
 
