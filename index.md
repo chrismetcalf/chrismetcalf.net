@@ -14,3 +14,15 @@ As we helped to grow the [open data](https://en.wikipedia.org/wiki/Open_data) mo
 Now I get to serve the community I'm most passionate about - our network of civic developers - as our _Director of Developer Experience_. I create technical content, developer tools like API Foundry and our collection of libraries, SDKs, and developer samples. I've organized, mentored at, and judged dozens of [civic hackathons](https://en.wikipedia.org/wiki/Hackathon#For_a_cause_or_purpose), and spoken about open data and APIs at conferences like [API Days Paris](http://www.apidays.io/), the [API Strategy & Practice](http://apistrat.com/) series, and the [International Open Government Data Conference](http://blogs.worldbank.org/opendata/join-the-international-open-government-data-conference-live-this-week-iogdc).
 
 Outside of work, I occupies mself with sailboat racing, photography, and dabbling in numerous personal projects. I live in Seattle with my awesome (and understanding) wife, [kick ass dog](http://facebook.com/maggiedawg), and a couple of curmudgeonly cats.
+
+<h3><a href="/posts/">Recent Posts</a></h3>
+{% for post in site.posts limit:5 %}    
+  <article>
+    {% if post.link %}
+      <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="icon-link"></i></h2>
+    {% else %}
+      <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+      <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
+    {% endif %}
+  </article>
+{% endfor %}
