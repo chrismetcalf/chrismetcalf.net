@@ -19,7 +19,7 @@ Outside of work, I occupies mself with sailboat racing, photography, and dabblin
 {% for post in site.posts limit:5 %}    
   <article>
     {% if post.link %}
-      <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="icon-link"></i></h2>
+      <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title | escape }}">{{ post.title | escape }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="icon-link"></i></h2>
     {% else %}
       <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
       <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
