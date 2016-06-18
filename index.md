@@ -16,6 +16,7 @@ Now I get to serve the community I'm most passionate about - our network of civi
 Outside of work, I occupies mself with sailboat racing, photography, and dabbling in numerous personal projects. I live in Seattle with my awesome (and understanding) wife, [kick ass dog](http://facebook.com/maggiedawg), and a couple of curmudgeonly cats.
 
 <h3><a href="/posts/">Recent Posts</a></h3>
+<div class="index">
 {% for post in site.posts limit:5 %}    
   <article>
     {% if post.link %}
@@ -26,3 +27,4 @@ Outside of work, I occupies mself with sailboat racing, photography, and dabblin
     {% endif %}
   </article>
 {% endfor %}
+</div>
