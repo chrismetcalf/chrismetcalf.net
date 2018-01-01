@@ -10,16 +10,15 @@ destination: public
 owner:
   name:           Chris Metcalf
   avatar:         head.png
-  bio:            "specialization is for insects"
   email:          chris@chrismetcalf.net
 
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about/
-  - title: Posts
+  - title: Blog
     url: /posts/
+  - title: Resume
+    url: https://linkedin.com/in/chrismetcalf
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Los_Angeles
@@ -30,19 +29,17 @@ markdown:    kramdown
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   pretty
 
-kramdown:
+syntax_highlighter_ops:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
-
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+  line_numbers:
+  line_numbers_start: 1
+  tab_width: 4
+  bold_every: 10
+  css: class
 
 destination: public
 exclude: 
@@ -54,7 +51,7 @@ exclude:
 - .ruby-*
 - vendor
 
-gems:
+plugins:
 - jekyll-mentions
 - jemoji
 - jekyll-redirect-from

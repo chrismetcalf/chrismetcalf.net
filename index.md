@@ -5,26 +5,17 @@ image:
   feature: transparent.gif
 ---
 
-<p class="topline">I'm a technologist, software developer, and all-around nerd based in Seattle, Washington</p>
+<p class="topline">"Specialization is for insects" &mdash; Lazarus Long</p>
 
-Over the last eight years I've had the pleasure of helping [Socrata](http://www.socrata.com) grow from a tiny startup to a 200 person company. A long the way, I've filled many of the roles a small startup needs help with most -- from project management and team leadership, to sales engineering, to customer support.
+Over the last ten years, I've had the pleasure of helping to grow [Socrata](https://www.socrata.com) from a small, eight person startup to a 180 person company. After joining the company as our first technical program manager, I quickly found myself filling the many roles a small startup needs help with most - leading the engineering team, supporting customers, and serving as our first sales engineer. As we helped to grow the open data movement, I evangelized transparency to governments across the country, launched dozens of our early customers, and led the re-launch of the GSA's federal Data.gov on Socrata. I still know many of our early customers by first name, and count them amongst my friends.
 
-As we helped to grow the [open data](https://en.wikipedia.org/wiki/Open_data) movement, I transparency to governments around the world, launched dozens of our early customers, and led the development of our core open data product. I still know many of our early customers by first name, and count them amoungst my friends and colleagues.
+As our company grew, I moved into new roles.
+- As our Director of Product Development, I led special projects to develop custom solutions for customers, envisioned and designed products like Socrata DataSync and the Socrata Open Data API, and developed customer training programs.
+- On our Partner and Ecosystems team, I helped create and manage technical partnerships with companies the likes of Yelp, Zillow, and Google. 
+- As Director of Developer Experience, I was also able to focus on one of the areas I'm most passionate about - educating, supporting, and evangelizing to our network of third-party developers through our rich, interactive developer portal ([dev.socrata.com](https://dev.socrata.com)), collaborating with the community on libraries and SDKs, and coordinating with customers and partners on over a hundred hackathons and developer events.
 
-Now I get to serve the community I'm most passionate about - our network of civic developers - as our _Director of Developer Experience_. I create technical content, developer tools like API Foundry and our collection of libraries, SDKs, and developer samples. I've organized, mentored at, and judged dozens of [civic hackathons](https://en.wikipedia.org/wiki/Hackathon#For_a_cause_or_purpose), and spoken about open data and APIs at conferences like [API Days Paris](http://www.apidays.io/), the [API Strategy & Practice](http://apistrat.com/) series, and the [International Open Government Data Conference](http://blogs.worldbank.org/opendata/join-the-international-open-government-data-conference-live-this-week-iogdc).
+Most recently, I've moved into a revenue generating role, as our Director of Solutions Engineering. My team of Solutions Engineers serve as technical consultants during the sales process, matching Socrata's products to customer needs, architecting and developing custom proofs of concept and demos, and providing guidance and wisdom during the sales process, as well as feedback to our development team on gaps in our solutions.
 
-Outside of work, I occupy myself with sailboat racing, photography, and dabbling in numerous personal projects. I live in Seattle with my awesome (and understanding) wife, [kick ass dog](http://facebook.com/maggiedawg), and a couple of curmudgeonly cats.
+Outside of work, I occupy myself with sailboat racing, photography, and dabbling in numerous personal projects. I've also recently become enamored with the [rucking community](https://www.goruck.com/rucking/), and have completed enough [GORUCK](https://www.goruck.com/the-challenge/) Tough and Light challenges that I generally can't tell you how many I've done without using my fingers. I live in Seattle with my awesome (and understanding) wife, [kick ass dog](http://facebook.com/maggiedawg), and my adorable infant son.
 
-<h3><a href="/posts/">Recent Posts</a></h3>
-<div class="index">
-{% for post in site.posts limit:5 %}    
-  <article>
-    {% if post.link %}
-      <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title | escape }}">{{ post.title | escape }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title | escape }}"><i class="icon-link"></i></h2>
-    {% else %}
-      <h2><a href="{{ post.url }}" title="{{ post.title | escape }}">{{ post.title | escape }}</a></h2>
-      <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 120 }}{% endif %}</p>
-    {% endif %}
-  </article>
-{% endfor %}
-</div>
+
