@@ -19,6 +19,8 @@ links:
     url: /posts/
   - title: Resume
     url: https://linkedin.com/in/chrismetcalf
+  - title: Code
+    url: https://github.com/chrismetcalf
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Los_Angeles
