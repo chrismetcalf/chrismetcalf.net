@@ -46,8 +46,8 @@
       {{ content }}
 
       <div class="next-prev">
-        {% if page.previous %}<a href="{{ page.previous.url }}">Previous: {{ page.previous.title }}</a>{% endif %} |
-        {% if page.next %}<a href="{{ page.next.url }}">Next: {{ page.next.title }}</a>{% endif %}
+        {% if page.previous %}<a href="{{ page.previous.url }}"><i class="far fa-hand-point-left"></i> {{ page.previous.title }}</a>{% endif %} |
+        {% if page.next %}<a href="{{ page.next.url }}">{{ page.next.title }} <i class="far fa-hand-point-right"></i></a>{% endif %}
       </div>
       <hr />
       <footer role="contentinfo">
@@ -65,7 +65,7 @@
 
 <div class="footer-wrap">
   <div class="related-articles">
-  <h4>You might also enjoy <small class="pull-right">(<a href="/posts/">View all posts</a>)</small></h4>
+    <h4><i class="far fa-lightbulb"></i> You might also enjoy <small class="pull-right"><a href="/posts/"><i class="fas fa-list-ul"></i> All posts</a></small></h4>
     <ul>
     {% for post in site.related_posts limit:3 %}
       <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
