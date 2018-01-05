@@ -17,10 +17,13 @@ owner:
 links:
   - title: Blog
     url: /posts/
+    # icon: fas fa-rss-square
   - title: LinkedIn
     url: https://linkedin.com/in/chrismetcalf
+    # icon: fab fa-linkedin
   - title: GitHub
     url: https://github.com/chrismetcalf
+    # icon: fab fa-github
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Los_Angeles
