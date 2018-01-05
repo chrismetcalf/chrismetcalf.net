@@ -47,11 +47,15 @@ destination: public
 exclude: 
 - public
 - Rakefile
+- Makefile
 - Gemfile
 - Gemfile.lock
 - README.md
 - .ruby-*
 - vendor
+- LICENSE
+- CNAME
+- Gruntfile.js
 
 plugins:
 - jekyll-mentions
