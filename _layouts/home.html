@@ -46,8 +46,8 @@
 
   <p>Outside of work, Chris occupies himself with sailboat racing, photography, and dabbling in numerous personal projects. He lives in Seattle with his awesome wife, <a href="http://facebook.com/maggiedawg">kick ass dog</a>, and a couple of curmudgeonly cats.</p>
 
-  <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
-  {% for post in site.posts limit:5 %}    
+  <h3><a href="{{ site.url}}/posts/">Updates</a></h3>
+  {% for post in site.posts limit:1 %}    
   <article>
     {% if post.link %}
       <h2 class="link-post"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="icon-link"></i></h2>
