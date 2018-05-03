@@ -21,10 +21,6 @@ image:
 
   <p>Chris is passionate about a lot of things. Possibly too many. Solving problems creatively using software. Helping governments innovate. Teaching the curious about technology. Creating amazing experiences.</p>
 
-  <p>He is currently the <em>Director of Developer Platform</em> at <a href="http://www.socrata.com">Socrata</a>, a fast-growing startup in Seattle that helps governments serve their constituents better through the creative use of open data.</p>
-
-  <p>Six years ago, when he started, they were just a handful of engineers with a dream. Now he focuses on developer experience, enabling civic entrepreneurs, and just generally making governments more awesome.</p>
-
   <p>Outside of work, Chris occupies himself with sailboat racing, photography, and dabbling in numerous personal projects. He lives in Seattle with his awesome wife, <a href="http://facebook.com/maggiedawg">kick ass dog</a>, and several curmudgeonly cats.</p>
 
   <h2 id="disclaimer">Disclaimer</h2>
