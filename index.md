@@ -18,4 +18,3 @@ Most recently, I've moved into a revenue generating role, as our Director of Sol
 
 Outside of work, I occupy myself with sailboat racing, photography, and dabbling in numerous personal projects. I've also recently become enamored with the [rucking community](https://www.goruck.com/rucking/), and have completed enough [GORUCK](https://www.goruck.com/the-challenge/) Tough and Light challenges that I generally can't tell you how many I've done without using my fingers. I live in Seattle with my awesome (and understanding) wife, [kick ass dog](http://facebook.com/maggiedawg), and my adorable infant son.
 
-
